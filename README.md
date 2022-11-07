@@ -40,9 +40,6 @@ To test in Windows run:
 
 ## User stories
 
-Create a user to add STOP, GO, Continue actions into your cohort SGC board.
-On your personal page you can delete your actions.
-
 Core:
 
 - As a user, I want to: submit information to your site for anyone to see
