@@ -7,6 +7,8 @@
 <strong>Go</strong> - Start Doin Things <br>
 <strong>Continue</strong> - Doing Things
 
+Live page hosted on [Heroku](https://sgcs.herokuapp.com/)
+
 ## Roles
 
 Abdullah: Scrum Facilitator<br>
