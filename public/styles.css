@@ -1,0 +1,184 @@
+:root {
+  --red: #e33232;
+  --black: #000000;
+  --green: #7dce82;
+  --yellow: #f0e43c;
+  --blue: #0c88ef;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+select {
+  width: 5rem;
+}
+
+textarea {
+  padding: 0.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border: solid 1px var(--black);
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.btn.primary-btn {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.btn:hover {
+  color: var(--white);
+  transition: all 0.5s;
+}
+
+.container {
+  margin: 1rem auto;
+  width: min(60ch, calc(80% + 2em));
+}
+
+.Cover {
+  display: grid;
+  min-block-size: 100vh;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+}
+
+.Stack {
+  display: grid;
+  gap: var(--gap, 1rem);
+
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.Button {
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: var(--text-light);
+  background-color: var(--accent);
+  font-weight: bold;
+}
+
+.login-nav {
+  font-size: 1.25rem;
+}
+
+.login-nav a {
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.main-nav > * + * {
+  margin-left: 1.5rem;
+}
+
+.main-nav h1 {
+  font-size: 1rem;
+}
+
+.main-nav a,
+button {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.25rem 0.5rem;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.main-nav a:hover,
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.grid-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20ch);
+  place-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+.tile {
+  background-color: var(--box-colour);
+  border-radius: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+.tile span {
+  display: block;
+  color: var(--black);
+}
+
+.tile > * + * {
+  margin-top: 0.5rem;
+}
+
+.tile .category {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.tile .name {
+  font-size: 0.8rem;
+  color: var(--blue);
+}
+
+.tile.stop {
+  background-color: var(--red);
+}
+
+.tile.go {
+  background-color: var(--green);
+}
+
+.tile.continue {
+  background-color: var(--yellow);
+}
+
+.my-page {
+  text-align: center;
+}
+
+.my-page h1 {
+  text-transform: capitalize;
+}
+
+.Button {
+  border: #000000 solid;
+}
