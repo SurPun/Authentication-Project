@@ -3,6 +3,7 @@
   "description": "an SGC board",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "DB_FILE=db.sqlite COOKIE_SECRET=abc nodemon src/index.js",
     "seed": "DB_FILE=db.sqlite node src/database/seed.js",
     "devWin": "SET DB_FILE=db.sqlite & SET COOKIE_SECRET=abc & nodemon src/index.js",
