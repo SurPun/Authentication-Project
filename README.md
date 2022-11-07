@@ -1,13 +1,11 @@
 # Authentication-Project
 
-### By: Abdullah, Alex, Paz & Suraj
+## By: Abdullah, Alex, Paz & Suraj
 
-## Idea
-
-A place to post your SGC,
-Stop - Doing Things
-Go - Start Doin Things
-Continue - Doing Things
+### A place to post your SGC: <br>
+<strong>Stop</strong> - Doing Things <br>
+<strong>Go</strong> - Start Doin Things <br>
+<strong>Continue</strong> - Doing Things
 
 ## Roles
 
