@@ -13,7 +13,7 @@ Live page hosted on [Heroku](https://sgcs.herokuapp.com/)
 
 Abdullah: Scrum Facilitator<br>
 Alex: UX/ UI<br>
-Paz: Adops<br>
+Paz: Devops<br>
 Suraj: QA
 
 ## Setup
