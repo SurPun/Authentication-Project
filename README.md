@@ -1,4 +1,4 @@
-# Authentication-Project
+# Week 3: Authentication-Project
 
 ## By: Abdullah, Alex, Paz & Suraj
 
