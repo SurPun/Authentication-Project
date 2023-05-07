@@ -1,4 +1,4 @@
-# Week 3: Authentication-Project
+# Week 3: Authentication-Project (F&C)
 
 ## By: Abdullah, Alex, Paz & Suraj
 
